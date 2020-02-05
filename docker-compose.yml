@@ -14,7 +14,7 @@ services:
       - /srv/data/jenkins:/var/jenkins_config
 volumes:
   jenkins_data:
-    driver:local
+    driver: local
   jenkins:
-    driver:local
+    driver: local
    
